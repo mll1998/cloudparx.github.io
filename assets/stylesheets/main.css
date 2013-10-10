@@ -623,7 +623,6 @@ footer .credits {
 
 #back-to-top {
 	display: none;
-	background-color: #E0E0E0;
 	margin: 0;
 	position: fixed;
 	bottom: 0;
@@ -636,10 +635,6 @@ footer .credits {
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
-}
-
-#back-to-top:hover {
-	background-color:#FF8C53;
 }
 
 #back-to-top i {
@@ -683,4 +678,12 @@ a:focus {
 
 .services-box .icon {
   background: #178fd7;
+}
+
+#back-to-top {
+  background-color: #E0E0E0;
+}
+
+#back-to-top:hover {
+  background-color: #178fd7;
 }
